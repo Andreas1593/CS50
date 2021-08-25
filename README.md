@@ -2,8 +2,10 @@
  *Harvard University's introduction to the intellectual enterprises of computer science and the art of programming*
  
 ## Final Project: Desert Defense
+
 #### Video Demo:  https://www.youtube.com/watch?v=hEbOJ6oNto4
-#### Description:
+
+#### Description
 
 ##### Gameplay
 
