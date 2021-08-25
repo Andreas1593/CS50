@@ -34,7 +34,7 @@ Your task in this lab is to do just that using Python!
 
 ### Getting Started
 
-\[Downloading Distribution Code\]
+\[Download Distribution Code\]
 
 ### Understanding
 
