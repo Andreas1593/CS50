@@ -1,5 +1,5 @@
-# CS50
- Harvard University's CS50
+# CS50x
+ Harvard University's CS50x
 
 ## Lab 3: Sort
 
@@ -69,6 +69,7 @@ Complete the implementation of plurality.c in such a way that the program simula
 - Complete the print_winner function.
     - The function should print out the name of the candidate who received the most votes in the election, and then print a newline.
     - It is possible that the election could end in a tie if multiple candidates each have the maximum number of votes. In that case, you should output the names of each of the winning candidates, each on a separate line.
+
 You should not modify anything else in plurality.c other than the implementations of the vote and print_winner functions (and the inclusion of additional header files, if you’d like).
 
 ### Usage
