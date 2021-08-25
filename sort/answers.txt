@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: It's fast on sorted numbers ( omega n ) and slow on random numbers ( O(n^2) )
+
+sort2 uses: merge sort
+
+How do you know?: It's rather fast on sorted numbers ( omega(n log n)) and fast on random numbers ( O(n log n) )
+
+sort3 uses: selection sort
+
+How do you know?: It's slow on sorted numbers ( omega (n^2) ) and slow on random numbers ( O(n^2) )
