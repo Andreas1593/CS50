@@ -84,7 +84,7 @@ TIME IN TOTAL:
 
 #### Downloading
 
-\[...\]
+\[...\]  
 Execute ls. You should see this problem’s distribution:
 ```
 dictionaries/  dictionary.c  dictionary.h  keys/  Makefile  speller.c  texts/
