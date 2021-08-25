@@ -5,13 +5,13 @@
 
 #### Video Demo:  https://www.youtube.com/watch?v=hEbOJ6oNto4
 
-#### Description
+### Description
 
-##### Gameplay
+#### Gameplay
 
 My final project 'Desert Defense' is a computer game in the popular tower defense style. Enemies spawn in waves and run along a certain path. The player's goal is to build turrets which shoot automatically in order to kill the enemies before they reach the end. The difficult part is that the resources for building are limited.
 
-##### Turrets
+#### Turrets
 There are three kind of turrets:
 - Basic turret
 - Missile Launcher
@@ -19,7 +19,7 @@ There are three kind of turrets:
 
 Each of them has different abilities and can be upgraded.
 
-##### Enemies
+#### Enemies
 
 There are three kind of enemies:
 - Zombie (basic)
@@ -28,7 +28,7 @@ There are three kind of enemies:
 
 Each of them has different weaknesses and strenghts.
 
-##### Lives / Money / Levels
+#### Lives / Money / Levels
 
 The player has a certain amount of lifes which means the level failed if more enemies reached the end of the path.
 The player has a certain amount of start money to build turrets. He gets money by killing enemies, by selling turrets (with loss) and automatically after every wave.
@@ -36,12 +36,12 @@ Both lifes and money vary from level to level.
 
 Each level unlocks the following after completion.
 
-##### Controls
+#### Controls
 
 The game is controlled entirely with the mouse. 'WASD' can be used for camera movement.
 
 
-##### Scripts
+#### Scripts
 
 - `AudioManager.cs` handles audio
 - `BuildManager.cs` handles the selection of nodes and turrets in the shop for building
@@ -73,7 +73,7 @@ The game is controlled entirely with the mouse. 'WASD' can be used for camera mo
 - `Waypoints.cs` handles the waypoints along the path for the enemy movement
 
 
-##### How the game's made and what I learned
+#### How the game's made and what I learned
 
 The game was made with the Unity Engine.
 
@@ -85,7 +85,7 @@ I've extended the basic game with graphics, sounds and lots of functions, e.g. t
 
 
 
-##### Sources
+#### Sources
 
 Also thanks for providing free graphics and sounds:
 
