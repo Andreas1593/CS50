@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+
+            <!-- Total sum printed at the bottom -->
+            {% set total_sum = namespace(value=cash) %}
+
+            {% for share in wallet %}
+                <!-- Hide shares of which the user owns 0 -->
+                {% if share.shares > 0 %}
+                    <tr>
+                        <td>{{ share.symbol }}</td>
+                        <td>{{ share.name }}</td>
+                        <td>{{ share.shares }}</td>
+                        <!-- Jinja2 starts indexing at '1' -->
+                        <td>{{ prices[loop.index-1] | usd }}</td>
+                        <td>{{ (prices[loop.index-1] * share.shares) | usd }}</td>
+                        {% set total_sum.value = (total_sum.value | float) + prices[loop.index-1] * share.shares %}
+                    </tr>
+                {% endif %}
+
+            {% endfor %}
+
+            <tr>
+                <td>CASH</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>{{ cash | usd }}</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>{{ total_sum.value | usd }}</td>
+            </tr>
+
+    </table>
+{% endblock %}
