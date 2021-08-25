@@ -8,12 +8,12 @@
  ## Lab 1: Population Growth
  
 Determine how long it takes for a population to reach a particular size.
-
- $ ./population
- Start size: 100
- End size: 200
- Years: 9
- 
+```
+$ ./population
+Start size: 100
+End size: 200
+Years: 9
+```
  ### Background
  
  Say we have a population of n llamas. Each year, n / 3 new llamas are born, and n / 4 llamas pass away.
@@ -40,11 +40,12 @@ Complete the implementation of population.c, such that it calculates the number 
 ### How to Test Your Code
 
 Your program should behave per the examples below.
-
- $ ./population
- Start size: -5
- Start size: 3
- Start size: 9
- End size: 5
- End size: 18
- Years: 8
+```
+$ ./population
+Start size: -5
+Start size: 3
+Start size: 9
+End size: 5
+End size: 18
+Years: 8
+```
