@@ -49,6 +49,10 @@ Elections come in all shapes and sizes. In the UK, the Prime Minister is officia
 
 Perhaps the simplest way to hold an election, though, is via a method commonly known as the “plurality vote” (also known as “first-past-the-post” or “winner take all”). In the plurality vote, every voter gets to vote for one candidate. At the end of the election, whichever candidate has the greatest number of votes is declared the winner of the election.
 
+### Getting Started
+
+*\[Download Distribution Code\]*
+
 ### Understanding
 
 Let’s now take a look at plurality.c and read through the distribution code that’s been provided to you.
@@ -179,6 +183,10 @@ Put more formally, the Tideman voting method consists of three parts:
 - **Lock:** Starting with the strongest pair, go through the pairs of candidates in order and “lock in” each pair to the candidate graph, so long as locking in that pair does not create a cycle in the graph.
 
 Once the graph is complete, the source of the graph (the one with no edges pointing towards it) is the winner!
+
+### Getting Started
+
+*\[Download Distribution Code\]*
 
 ### Understanding
 
