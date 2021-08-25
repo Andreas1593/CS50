@@ -36,7 +36,7 @@ Optionally, you may also:
 
 ## Problem Set 8: Homepage
 
-*\[Disclaimer: The website itself makes no sense and the HTML and CSS structure might be questionable - I just wanted to play around with HTML, CSS and JavaScript, but I think I could learn some things from that\]*
+***\[Disclaimer: The website itself makes no sense and the HTML and CSS structure might be questionable - I just wanted to play around with HTML, CSS and JavaScript, but I think I could learn some things from that\]***
 
 Build a simple homepage using HTML, CSS, and JavaScript.
 
