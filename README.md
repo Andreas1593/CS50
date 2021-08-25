@@ -1,5 +1,5 @@
-# CS50
- Harvard University's CS50
+# CS50x
+ Harvard University's CS50x
 
 ## Scratch
 
