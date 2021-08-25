@@ -22,6 +22,10 @@ For example, if we wanted to score the word Code, we would note that in general 
 
 ### Getting Started
 
+*\[Download Distribution Code\]*
+
+### Implementation Details
+
 Complete the implementation of scrabble.c, such that it determines the winner of a short scrabble-like game, where two players each enter their word, and the higher scoring player wins.
 
 - Notice that we’ve stored the point values of each letter of the alphabet in an integer array named POINTS.
