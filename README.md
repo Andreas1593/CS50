@@ -3,7 +3,7 @@
 
  ## Lab 1: Hello
  
- I think there's not much to say about this "program".
+ *I think there's not much to say about this "program".*
  
  ## Lab 1: Population Growth
  
