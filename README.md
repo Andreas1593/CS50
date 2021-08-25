@@ -86,3 +86,39 @@ Vote: Alice
 Alice
 Bob
 ```
+
+## Problem Set 2: Tideman
+
+Implement a program that runs a Tideman election, per the below.
+```
+./tideman Alice Bob Charlie
+Number of voters: 5
+Rank 1: Alice
+Rank 2: Charlie
+Rank 3: Bob
+
+Rank 1: Alice
+Rank 2: Charlie
+Rank 3: Bob
+
+Rank 1: Bob
+Rank 2: Charlie
+Rank 3: Alice
+
+Rank 1: Bob
+Rank 2: Charlie
+Rank 3: Alice
+
+Rank 1: Charlie
+Rank 2: Alice
+Rank 3: Bob
+
+Charlie
+```
+
+### Background
+
+You already know about plurality elections, which follow a very simple algorithm for determining the winner of an election: every voter gets one vote, and the candidate with the most votes wins.
+
+But the plurality vote does have some disadvantages. What happens, for instance, in an election with three candidates, and the ballots below are cast?
+![Ballot Example](https://github.com/Andreas1593/CS50x/blob/Week-3/pictures/ballot.png?raw=true)
