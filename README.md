@@ -199,7 +199,7 @@ $ ./filter -e infile.bmp outfile.bmp
 
 ### My implementation
 
-***Here's an example picture on which I applied the edge detection filter of my implementation:***
+*Here's an example picture on which I applied the edge detection filter of my implementation:*
 
 ![Edge detection example](https://github.com/Andreas1593/CS50x/blob/Week-4/filter/images/edge_filtered_picture_example.bmp?raw=true)
 
